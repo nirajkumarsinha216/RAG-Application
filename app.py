@@ -9,6 +9,11 @@ import streamlit as st
 import tempfile
 #from Gemini_Api import API_KEY
 
+headers={
+  "authorization" = st.secrets["API_KEY"],
+  "content-type" = "application/json"
+}
+
 warnings.filterwarnings("ignore")
 
 #Loading Gemini LLM
