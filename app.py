@@ -7,7 +7,7 @@ from langchain.chains import RetrievalQA
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import streamlit as st
 import tempfile
-from Gemini_Api import API_KEY
+#from Gemini_Api import API_KEY
 
 warnings.filterwarnings("ignore")
 
